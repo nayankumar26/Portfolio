@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color:black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: darkblue;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: black;
+}
+
+#home .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: blue;
+    text-shadow: 2px 2px 4px rgba(4, 9, 75, 0.915); 
+}
+
+#home h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: lightblue;
+}
+
+#home p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#home .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: lightblue;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#home .btn:hover {
+    background-color: blue;
+}
+
+#home .social-links {
+    margin-top: 20px;
+}
+
+#home .social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+#home .social-links a img {
+    width: 30px;
+    height: 30px;
+}
+#about h2{
+    
+    background-color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+#about .content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    
+}
+
+#about .about-details p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left;
+    color: #ffffff;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+#projects .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#projects h2 {
+    margin-bottom: 20px;
+    color: lavender;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkblue;
+}
+
+#projects p {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+#contact .content {
+    max-width: 600px;
+    margin: 0 auto;
+   
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    color: lavender;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkblue;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#contact .contact-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+#contact .contact-links a img {
+    width: 30px;
+    height: 30px;
+}
